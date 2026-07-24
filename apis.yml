@@ -1,19 +1,61 @@
 aid: china-fif
-name: china-fif
-description: china-fif is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/china-fif.png
+name: Fortune Technology (China FIF)
+description: 'Fortune Technology, listed by Qiming Venture Partners as one of the largest
+  commercial factoring companies in China, historically operating at china-fif.com.
+  Commercial factoring is a trade-finance business: purchasing accounts receivable
+  from suppliers at a discount to provide working capital. As of the 2026-07-20 enrichment
+  probe the company publishes no developer surface of any kind — no public API, no
+  documentation portal, no OpenAPI or other machine-readable specification, and no
+  /.well-known/ discovery documents. The china-fif.com domain no longer serves the
+  company: HTTPS is refused outright (port 443 closed) and plain HTTP returns an unrelated
+  Chinese Premier League sports-streaming site running EmpireCMS. This record is retained
+  as an honest negative result for the API Evangelist network rather than deleted.'
 url: https://raw.githubusercontent.com/api-evangelist/china-fif/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qiming
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface
+x-status: domain-repurposed
+x-notes:
+- 'Identity resolved 2026-07-20 from the Qiming Venture Partners portfolio listing,
+  which names the company "Fortune Technology", describes it as one of the largest
+  commercial factoring companies in China, and gives http://www.china-fif.com/ as its
+  website. Source: https://www.qimingvc.com/en/portfolio'
+- 'Domain probe 2026-07-20: china-fif.com resolves to 154.93.191.226 (nameservers ns1/ns2.julydns.com,
+  registrar Alibaba Cloud, created 2011-05-03, record updated 2026-04-29). Port 443
+  CLOSED — no TLS. HTTP 200 returns a Chinese Premier League live-streaming site (24直播网,
+  EmpireCMS), not the factoring company. No SPF, DMARC, CAA, or MX records published.'
+- 'Discovery probe 2026-07-20 (all 404): /.well-known/security.txt, /.well-known/openid-configuration,
+  /.well-known/oauth-authorization-server, /.well-known/api-catalog, /.well-known/ai-plugin.json,
+  /llms.txt, /openapi.json, /swagger.json. Only /robots.txt returned 200, belonging
+  to the streaming site.'
+- No artifacts were written this pass. Nothing was fabricated. Commercial factoring
+  is not an API-first business and no successor developer surface was located.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Financial Services
+- Trade Finance
+- Commercial Factoring
+- Working Capital
+- Lending
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +64,12 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://china-fif.com
+  url: http://www.china-fif.com
+  x-status: repurposed
+  x-note: Historical company website. As of 2026-07-20 this host serves unrelated third-party
+    content, not Fortune Technology.
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
