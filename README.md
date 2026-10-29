@@ -64,15 +64,36 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Fortune Technology is listed by Qiming Venture Partners as one of the largest commercial factoring companies in China, historically operating at `china-fif.com`. It was surfaced as a Qiming portfolio company and added to the API Evangelist network as an enrichment lead.
+> **No live API surface.** Nothing from this company could be reached the last time it was checked: the site is offline, parked or unreachable, or no public API was found. This profile is kept as a historical record and is not maintained or rated.
 
-**Enrichment result (2026-07-20): no API surface. No artifacts written.**
+**Status:** domain-repurposed
 
-- The company publishes no public API, developer portal, documentation, or machine-readable specification.
-- `china-fif.com` no longer serves the company. Port 443 is closed (no TLS at all); plain HTTP returns an unrelated Chinese Premier League sports-streaming site running EmpireCMS.
-- Every discovery path probed returned 404: `/.well-known/security.txt`, `/.well-known/openid-configuration`, `/.well-known/oauth-authorization-server`, `/.well-known/api-catalog`, `/.well-known/ai-plugin.json`, `/llms.txt`, `/openapi.json`, `/swagger.json`.
-- No SPF, DMARC, CAA, or MX records are published for the domain.
+Fortune Technology, listed by Qiming Venture Partners as one of the largest commercial factoring companies in China, historically operating at china-fif.com. Commercial factoring is a trade-finance business: purchasing accounts receivable from suppliers at a discount to provide working capital. As of the 2026-07-20 enrichment probe the company publishes no developer surface of any kind — no public API, no documentation portal, no OpenAPI or other machine-readable specification, and no /.well-known/ discovery documents. The china-fif.com domain no longer serves the company: HTTPS is refused outright (port 443 closed) and plain HTTP returns an unrelated Chinese Premier League sports-streaming site running EmpireCMS. This record is retained as an honest negative result for the API Evangelist network rather than deleted.
 
-This record is retained as an honest negative result rather than deleted. Commercial factoring is not an API-first business, and no successor developer surface was located. See `apis.yml` `x-notes` for the full probe log.
+**Areas:** Company · Financial Services · Trade Finance · Commercial Factoring · Working Capital · Lending · China
 
-Backed by: qiming — http://www.china-fif.com (repurposed)
+## Fortune Technology (China FIF) on APIs.io (historical record)
+
+Everything profiled for Fortune Technology (China FIF) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/china-fif/](https://apis.io/providers/china-fif/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](http://www.china-fif.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no live api surface, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Fortune Technology (China FIF): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/china-fif/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
